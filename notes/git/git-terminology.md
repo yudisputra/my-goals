@@ -19,7 +19,7 @@ Merujuk kepada branch yang sedang aktif saat ini.<br /><br />
 ## 4. Pull Request
 Pull Request adalah sebuah aksi dimana kita meminta untuk branch kita yang sudah di push, digabungkan dengan dengan branch utama yang ada pada repo.<br /><br />
 
-![Git Pull Request](images/git-pull-request.PNG)<br /><br />
+![Git Pull Request](images/git-pull-request.png)<br /><br />
 
 ## 5. Git Ignore
 Kita bisa membuat file bernama `.gitignore` yang berguna untuk mendaftarkan file file mana saja yang tidak akan dicheck maupun di commit ketika melakukan push ke remote repo. Beberapa contoh penulisan file pada git ignore adalah seperti dibawah ini.
@@ -29,6 +29,6 @@ Untuk lebih mudahnya ada website yang dapat kita gunakan untuk mengregenerate fi
 https://www.toptal.com/developers/gitignore
 <br /><br />
 
-![Git Ignore](images/git-ignore.PNG)<br /><br />
+![Git Ignore](images/git-ignore.png)<br /><br />
 
 ### [Back To Notes Index](./README.md)

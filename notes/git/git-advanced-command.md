@@ -2,8 +2,7 @@
 
 ## 1. Git Config
 
-Digunakan untuk melakukan perubahan nilai pada configurasi Git pada level Global maupun Local.<br /><br />
-
+Digunakan untuk melakukan perubahan nilai pada configurasi Git pada level Global maupun Local.
 ### Git Config Levels dan Files<br /><br />
 * --local
 
@@ -34,15 +33,15 @@ Konfugrasi level system akan di apply di seluruh repo dan user yang ada pada dev
 
 Digunakan untuk melihat semua history commit yang dilakukan.
 
-![Git Log](images/git-log.PNG)
+![Git Log](images/git-log.PNG)<br /><br />
 
 * Melihat history 3 teratas menggunakan `git log -3`
 
-![Git Log Count](images/git-log-count.PNG)
+![Git Log Count](images/git-log-count.PNG)<br /><br />
 
 * Melihat history sebuah file menggunakan `git log -- style.css`
 
-![Git File History](images/git-file-history.PNG)
+![Git File History](images/git-file-history.PNG)<br /><br />
 
 * Melihat history dalam bentuk graph ( seperti pada aplikasi GUI github ) menggunakan 
 
@@ -58,8 +57,10 @@ Digunakan untuk kembali ke suatu keadaan commit yang telah dilakukan.
 ### A. Mengembalikan file yang telah dihapus pada commit
 * Lihat history file yang ingin dikembalikan
 
-![Git File History](images/git-file-history.PNG)
+![Git File History](images/git-file-history.PNG)<br /><br />
 
 * Lakukan Checkout sesuai dengan 5 character sebuah commit dan tentukan file yang ingin dikembalikan
 
-![Git Checkout Restore](images/git-checkout-restore.PNG)
+![Git Checkout Restore](images/git-checkout-restore.PNG)<br /><br />
+
+### [Back To Notes Index](./README.md)

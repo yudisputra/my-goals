@@ -19,14 +19,14 @@ Syntax: `git remote`
 
 Syntax: `git remote -v`
 
-![Git Remote -V](images/git-remote-v.PNG)<br /><br />
+![Git Remote -V](images/git-remote-v.png)<br /><br />
 
 ### B. Penambahan remote baru
 Kita bisa melakukan penambahan remote baru menggunakan syntax dibawah. Hal ini lebih sering digunakan pada repo yang menggunakan fitur fork.
 
 Syntax: `git remote add (link repo remote)`
 
-![Git Remote add](images/git-remote-add.PNG)<br /><br />
+![Git Remote add](images/git-remote-add.png)<br /><br />
 ### C. Melakukan push local folder ke remote repo
 
 1. Melakukan git init pada folder local.
@@ -54,7 +54,7 @@ Syntax: `git fetch`
 
 Syntax: `git fetch (nama remote)`<br /><br />
 
-![Git Fetch Remote](images/git-fetch-remote.PNG)<br /><br />
+![Git Fetch Remote](images/git-fetch-remote.png)<br /><br />
 
 ## 5. Git Pull
 

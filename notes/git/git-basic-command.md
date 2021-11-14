@@ -38,31 +38,35 @@ Secara default jika melakukan perintah ini, maka akan muncul code editor untuk m
 
 Tetapi untuk lebih cepatnya kita bisa melakukan pemberian message dengan menuliskan perintah seperti dibawah ini.
 
-`git commit -m "Menambahkan File"`<br /><br />
+Syntax: `git commit -m "Menambahkan File"`
+
+* Shortcut Melakukan add dan memberi message.
+
+* Syntax: `git commit -am "(Pesan)"`<br /><br />
 
 ## 5. Git Branch
 
 Digunakan untuk melakukan fitur branching pada git. 
 
-Syntax: `git branch`<br /><br />
+Syntax: `git branch`
 
-Secara default jika melakukan perintah ini akan ditampilkan branch yang ada pada folder repo tersebut.
+Secara default jika melakukan perintah ini akan ditampilkan branch yang ada pada folder repo tersebut.<br /><br />
 
-![Git Branch Default](images/git-branch.PNG)
+![Git Branch Default](images/git-branch.PNG)<br /><br />
 
-Tanda hijau dan bintang merujuk bahwa branch tersebut adalah yang sedang aktif saat ini.<br /><br />
+Tanda hijau dan bintang merujuk bahwa branch tersebut adalah yang sedang aktif saat ini.
 
 ### A. Melakukan penambahan branch
 
 * Syntax: `git branch branch-A`
 
-* Maka akan dihasilkan branch baru bernama branch A.
+* Maka akan dihasilkan branch baru bernama branch A.<br /><br />
 
 ### B. Mengecek Branch yang Telah Ter Merged
 
 * Syntax: `git branch --merged`
 
-* Maka Branch yang telah ter merged akan ditampilkan.
+* Maka Branch yang telah ter merged akan ditampilkan.<br /><br />
 
 ### C. Menghapus Branch
 
@@ -74,13 +78,13 @@ Tanda hijau dan bintang merujuk bahwa branch tersebut adalah yang sedang aktif s
  
 Digunakan untuk berpindah branch ataupun berpindah ke suatu commit.
 
-Syntax: `git checkout`<br /><br />
+Syntax: `git checkout`
 
 ### A. Berpindah Branch
 
 * Syntax: `git checkout branch-A`
 
-* Maka Branch yang aktif akan berpindah ke Branch-A
+* Maka Branch yang aktif akan berpindah ke Branch-A. <br /><br />
 
 ### B. Berpindah ke suatu Commit
 
@@ -116,3 +120,12 @@ Digunakan untuk menggabungkan sebuah Branch ke Branch utama atau ke Branch lainn
 * Conflict akan terjadi ketika perintah merge dilakukan ternyata ada perubahan yang berbeda pada suatu baris file dan pada branch yang berbeda. Secara default jika ada conflict ketika merge dilaukan maka code editor yang dipilih akan terbuka secara otomatis untuk mengresolve conflict tersebut.
 
 * ![Git Conflict](images/git-conflict.PNG)<br /><br />
+
+### Git Merge Remote
+
+* Ketika kita mempunyai banyak remote dalam satu repo maka terkadang ada satu remote yang memiliki commit lebih dari repo di local kita.
+Maka untuk melakukan merge terhadap remote tersebut kita bisa menggunakan command dibawah ini.
+
+* ![Git Merge Remote](images/git-merge-remote.PNG)<br /><br />
+
+### [Back To Notes Index](./README.md)

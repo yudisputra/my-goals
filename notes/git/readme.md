@@ -5,5 +5,7 @@
 3. [Git Basic Command](./git-basic-command.md)
 4. [Git Advanced Command](./git-advanced-command.md)
 5. [Git Remote Command](./git-remote-command.md)
+6. [Git Rebase](./git-rebase.md)
+<br/><br/>
 
 ### [Back To Notes Index](../README.md)

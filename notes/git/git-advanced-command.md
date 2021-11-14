@@ -45,7 +45,7 @@ Digunakan untuk melihat semua history commit yang dilakukan.
 
 * Melihat history dalam bentuk graph ( seperti pada aplikasi GUI github ) menggunakan 
 
-* `git log -all --decorate --oneline --graph`
+* `git log --all --decorate --oneline --graph`
 
 ![Git Graph](images/git-graph.PNG)
 <br />

@@ -126,6 +126,6 @@ Digunakan untuk menggabungkan sebuah Branch ke Branch utama atau ke Branch lainn
 * Ketika kita mempunyai banyak remote dalam satu repo maka terkadang ada satu remote yang memiliki commit lebih dari repo di local kita.
 Maka untuk melakukan merge terhadap remote tersebut kita bisa menggunakan command dibawah ini.
 
-* ![Git Merge Remote](images/git-merge-remote.PNG)<br /><br />
+* ![Git Merge Remote](images/git-merge-remote.png)<br /><br />
 
 ### [Back To Notes Index](./README.md)

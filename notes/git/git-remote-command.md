@@ -15,7 +15,7 @@ Syntax dibawah digunakan untuk melihat semua remote yang terhubung.
 
 Syntax: `git remote`
 
-![Git Remote](images/git-remote.PNG)<br /><br />
+![Git Remote](images/git-remote.png)<br /><br />
 
 Syntax: `git remote -v`
 

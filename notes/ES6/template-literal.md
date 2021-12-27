@@ -177,6 +177,6 @@ console.log(str);
 
 Penggunaan Lain Tagged Template:
 
-A. Escaping HTML Tags
-B. Translation & Internatioalization
+A. Escaping HTML Tags  
+B. Translation & Internatioalization  
 C. Styled Component

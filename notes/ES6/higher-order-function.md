@@ -107,3 +107,5 @@ function repeat(n, action){
 repeat(10, console.log);
 repeat(3, alert);
 ```
+
+### [Back To ES6 Index](./README.md)

@@ -33,3 +33,5 @@ let tampilPesan = (nama) => {
 ```js
 const tampilPesan = (nama) => `Halo, ${nama}`;
 ```
+
+### [Back To ES6 Index](./README.md)

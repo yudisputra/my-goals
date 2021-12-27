@@ -74,3 +74,5 @@ const hasil = angka
 .map(a => a * 3)
 .reduce((accumulator, currentValue) => accumulator + currentValue);
 ```
+
+### [Back To ES6 Index](./README.md)

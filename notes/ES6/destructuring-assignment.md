@@ -222,3 +222,5 @@ console.log(getIdMhs(mhs));
 
 // Bisa dilihat pada function getIdMhs langsung diambil properties yaitu id. Tetapi tetap function tersebut akan menerima object sebagai parameternya
 ```
+
+### [Back To ES6 Index](./README.md)

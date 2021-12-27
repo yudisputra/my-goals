@@ -180,3 +180,5 @@ Penggunaan Lain Tagged Template:
 A. Escaping HTML Tags  
 B. Translation & Internatioalization  
 C. Styled Component
+
+### [Back To ES6 Index](./README.md)

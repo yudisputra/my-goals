@@ -19,7 +19,7 @@ kerjakanTugas('Pemrograman Web', selesai);
 
 ![Higher Order Example](images/higher-order-example.PNG)
 
-Pada contoh diatas `function kerjakan tugas()` merupakan Higher Order Function karena dia mempunyai `function selesai()` sebagai argumennya. Sedangkan `function selesai()` disebut sebagai Callback.
+Pada contoh diatas `function kerjakan tugas()` merupakan Higher Order Function karena dia mempunyai `function selesai()` sebagai argumennya. Dan dalam kasus ini `function selesai()` disebut sebagai Callback karena digunakan sebagai argumen.
 
 Contoh Lain:
 

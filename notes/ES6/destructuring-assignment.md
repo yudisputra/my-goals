@@ -26,7 +26,23 @@ console.log(email); // yudistiraputra@gmail.com
 ```
 <br />
 
-## Skip Variable
+## A. Destructuring Assignment Pada Array
+
+### 1. Destructuring pada array
+
+Contoh:
+```js
+const coba = ['satu', 'dua', 'tiga'];
+
+const [a, b, c] = coba;
+console.log(a); // satu
+console.log(b); // dua
+console.log(c); // tiga
+
+```
+<br />
+
+### 2. Skip Variable
 
 Kita dapat mengskip variable yang tidak diinginkan dengan cara menuliskan string kosong pada tempat variable yang tidak dinginkan.
 
@@ -40,7 +56,7 @@ console.log(nama) // Yudistira Putra
 ```
 <br />
 
-## Swap Items
+### 3. Swap Items
 
 Fungsi lain dari destructuring adalah melakukan swap nilai variable. Pada kasus umum hal ini dilakukan dengan membuat satu variable lain untuk penyimpanan sementara. 
 
@@ -65,8 +81,6 @@ let b = 2;
 [a, b] = [b, a];
 ```
 <br />
-
-## Return Value Function
 
 ### 4. Return Value Function Array
 

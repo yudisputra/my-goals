@@ -167,3 +167,6 @@ Promise.all([film, cuaca])
         const [film, cuaca] = response;
     })
 ```
+
+### [Go To Code Practice](../../code-practice/promise-example.js)
+### [Back To ES6 Index](./README.md)

@@ -13,3 +13,8 @@ Summary : This is the list of essential skills needed to know and learn to becom
 ### [More...](https://itnext.io/frontend-interview-cheatsheet-that-helped-me-to-get-offer-on-amazon-and-linkedin-cba9584e33c7)
 
 <br />
+
+## 3. IIFE, Scope, Closures and Hoistings
+Summary: 4 basic concepts advance javascript programming.
+
+### [More...](https://javascript.plainenglish.io/4-javascript-concepts-that-every-developer-should-know-a20f0d4c9dd8)

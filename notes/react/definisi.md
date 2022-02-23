@@ -38,6 +38,10 @@ Dengan menggunakan component maka kita tidak perlu membuat UI yang sama berkali-
 
 Dengan membuat scope component yang kecil, kita tidak perlu membuat segala hal harus berada di suatu file yang sama.
 
+## 4. Pendekatan Secara `Declarative`
+
+Dalam react dikenal dengan pendekatan secara Deklaratif. Maksudnya adalah kita akan menuliskan bagaimana suatu komponen web terlihat dalam suatu kondisi, seperti ketika dia ditambahkan, dihapus atau dimodifikasi. Kita hanya menuliskan ingin seperti apa hasil akhirnya dan kita akan membiarkan react yang memutuskan bagaimana aliran perubahaannya.
+
 
 
 

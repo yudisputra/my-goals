@@ -6,6 +6,7 @@
 3. [Memulai Project React](./start-react-project.md)
 4. [Apa itu JSX ?](./what-is-jsx.md)
 5. [Bagaimana React Bekerja ?](./how-react-works.md)
+6. [Custom Component](./custom-component.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

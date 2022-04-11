@@ -3,7 +3,7 @@
 ## 1. Apa itu React ?
 </br>
 
-![React Definition](images/react-definition.PNG)
+![React Definition](../../images/react-definition.PNG)
 
 React adalah client-side Javascript library yang berarti react mempunyai tugas untuk menghandle manipulasi DOM pada sisi client ketika meminta response dari server.Dengan manipulasi DOM ini, React dapat digunakan untuk membuat modern reactive UI pada web.
 
@@ -14,7 +14,7 @@ Konsep pada React adalah yaitu declarative dan component focused approach. Yang 
 ## 2. React sebagai SPA ( Single Page Application )
 </br>
 
-![Single Page Application](images/spa.PNG)
+![Single Page Application](../../images/spa.PNG)
 
 React dalam UI dapat digunakan untuk dua hal yaitu untuk mengontrol sebuah bagian dalam halaman HTML ( Widget ) dan Single Page Application.
 
@@ -42,6 +42,7 @@ Dengan membuat scope component yang kecil, kita tidak perlu membuat segala hal h
 
 Dalam react dikenal dengan pendekatan secara Deklaratif. Maksudnya adalah kita akan menuliskan bagaimana suatu komponen web terlihat dalam suatu kondisi, seperti ketika dia ditambahkan, dihapus atau dimodifikasi. Kita hanya menuliskan ingin seperti apa hasil akhirnya dan kita akan membiarkan react yang memutuskan bagaimana aliran perubahaannya.
 
+### [Back To React Index](../../README.md)
 
 
 

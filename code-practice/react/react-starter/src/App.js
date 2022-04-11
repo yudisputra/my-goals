@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import ExpenseItem from "./components/ExpenseItem";
+import Expenses from "./components/Expenses/Expenses";
 
 function App() {
   const expenses = [
@@ -10,7 +9,12 @@ function App() {
       amount: 94.12,
       date: new Date(2020, 7, 14),
     },
-    { id: "e2", title: "New TV", amount: 799.49, date: new Date(2021, 2, 12) },
+    {
+      id: "e2",
+      title: "New TV",
+      amount: 799.49,
+      date: new Date(2021, 2, 12),
+    },
     {
       id: "e3",
       title: "Car Insurance",
@@ -28,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <h2>Let's Get Started !</h2>
-      <ExpenseItem></ExpenseItem>
+      <Expenses items={expenses} />
     </div>
   );
 }

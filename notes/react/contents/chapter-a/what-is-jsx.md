@@ -13,3 +13,5 @@ function tesJSX(){
 ```
 
 Syntax JSX ini oleh react akan ditransformasi sehingga dapat menjadi code yang bisa dibaca oleh browser.
+
+### [Back To React Index](../../README.md)

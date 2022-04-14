@@ -16,6 +16,10 @@
 6. [Passing Data Menggunakan Props](./contents/chapter-b/passing-data-using-props.md)
 7. [Memecah Component](./contents//chapter-b/splitting-component-into-multiple.md)
 8. [Konsep Composition (Children Props)](./contents/chapter-b/concept-of-composition.md)
+
+## C. React State dan Bekerja dengan Events
+1. [Perkenalan State dan Events](./contents/chapter-c/state-events-introduction.md)
+2. [Listening To Events dan Bekerja dengan Event Handlers](./contents/chapter-c/listening-to-events-%26-working-with-event-handlers.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

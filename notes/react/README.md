@@ -20,6 +20,8 @@
 ## C. React State dan Bekerja dengan Events
 1. [Perkenalan State dan Events](./contents/chapter-c/state-events-introduction.md)
 2. [Listening To Events dan Bekerja dengan Event Handlers](./contents/chapter-c/listening-to-events-%26-working-with-event-handlers.md)
+3. [Bagaimana Functions dalam Components Di Eksekusi](./contents/chapter-c/how-components-functions-are-executed.md)
+4. [Bekerja dengan State](./contents/chapter-c/working-with-state.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

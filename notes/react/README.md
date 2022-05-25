@@ -14,7 +14,7 @@
 4. [Basic Styling Pada Component](./contents/chapter-b/basic-styling-on-components.md)
 5. [Data Dinamis Pada Component](./contents/chapter-b/dynamic-data-on-component.md)
 6. [Passing Data Menggunakan Props](./contents/chapter-b/passing-data-using-props.md)
-7. [Memecah Component](./contents//chapter-b/splitting-component-into-multiple.md)
+7. [Memecah Component](./contents/chapter-b/splitting-component-into-multiple.md)
 8. [Konsep Composition (Children Props)](./contents/chapter-b/concept-of-composition.md)
 
 ## C. React State dan Bekerja dengan Events
@@ -22,6 +22,7 @@
 2. [Listening To Events dan Bekerja dengan Event Handlers](./contents/chapter-c/listening-to-events-%26-working-with-event-handlers.md)
 3. [Bagaimana Functions dalam Components Di Eksekusi](./contents/chapter-c/how-components-functions-are-executed.md)
 4. [Bekerja dengan State](./contents/chapter-c/working-with-state.md)
+5. [Lebih Dalam Tentang useState](./contents/chapter-c/closer-look-at-the-useState-hook.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

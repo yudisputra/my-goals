@@ -23,6 +23,7 @@
 3. [Bagaimana Functions dalam Components Di Eksekusi](./contents/chapter-c/how-components-functions-are-executed.md)
 4. [Bekerja dengan State](./contents/chapter-c/working-with-state.md)
 5. [Lebih Dalam Tentang useState](./contents/chapter-c/closer-look-at-the-useState-hook.md)
+6. [Bekerja dengan Form Input](./contents/chapter-c/work-with-form-input.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

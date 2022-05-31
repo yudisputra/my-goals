@@ -27,3 +27,15 @@ Kemudian kita akan menambahkan beberapa state sejumlah dari field yang ada pada 
 ![Multiple State Form](../../images/multiple-state-form.png)
 
 State-state berikut ini disimpan nilainya menggunakan event handlers yang telah dibuat. State-state ini juga dibuat agar memudahkan ketika form yang kita gunakan akan digunakan untuk proses `update`.
+
+### * Alternatif menggunakan Satu State
+
+Selain menggunakan multiple state kita juga bisa menggunakan alternatif yaitu menggunakan hanya satu state berbentuk Object.
+
+![One State Form](../../images/one-state-form.png)
+
+Ada yang perlu diperhatikan disini yaitu untuk melakukan set terhadapat statenya kita perlu menggunakan `Spread Operator` hal ini dilakukan agar nilai state yang lainnya tercopy dan kita hanya melakukan replace pada nilai object yang diinginkan.
+
+![Event State Set Using Spread Operator](../../images/set-state-spread-operator.png)
+
+

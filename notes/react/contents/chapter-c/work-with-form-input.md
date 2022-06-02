@@ -38,4 +38,51 @@ Ada yang perlu diperhatikan disini yaitu untuk melakukan set terhadapat statenya
 
 ![Event State Set Using Spread Operator](../../images/set-state-spread-operator.png)
 
+Selain menggunakan spread operator ada satu cari lagi yang disarankan yaitu menggunakan `prevState`. Hal ini khusus dilakukan jika update state bergantung pada `state sebelumnya`.
+Cara yang bisa dilakukan adalah seperti dibawah ini:
+
+![Update State Using Prev State](../../images/update-state-using-prevState.png)
+
+Jadi kenapa dilakukan hal seperti ini ?
+
+Sebenarnya cara yang pertama maupun kedua pun sama saja, tetapi cari yang kedua lebih disarankan karena kita tahu ketika suatu state diupdate maka React akan melakukan schedule untuk proses updatenya. Dan ketika React melakukan hal itu bisa saja state yang kita bergantung adalah state yang salah atau yang tidak terupdate.
+
+Jadi ketika kita menggunakan cara yang kedua React memastikan bahwa `prevState` yang digunakan adalah state yang paling terupdate.
+
+## 4. Melakukan Handle Submit Button Form
+
+Untuk melakukan handle submit form banyak programmer yang salah melakukannya dengan memberikan event `onClick` pada button submitnya seperti dibawah ini.
+
+![Wrong Handle Submit](../../images/wrong-handle-submit.png)
+
+Hal yang `benar` untuk dilakukan adalah dengan memberikan event pada tag form nya yaitu `onSubmit`.
+
+![Add Submit Handler Pada Form](../../images/add-submit-handler-pada-form.png)
+
+Kemudian function submitHandlernya kita buat seperti dibawah ini.
+
+![Submit Handler Function](../../images/submit-handler-function.png)
+
+Yang perlu kita lihat disini kita melakukan pencegahan aksi default form yaitu melakukan pencegahan form melakukan pengiriman request dan melakukan reload halaman. Sehingga kita bisa memberikan aksi yang lebih spesifik yang kita inginkan.
+
+## 5. Two Way Binding
+
+Ada salah satu konsep penting dalam form pada React, yaitu adalah `Two Way Binding`. `Two Way Binding` adalah suatu cara dimana secara implicit kita memaksa sebuah DOM html memiliki nilai (value) yang selalu konsisten dengan sebuah `state`.
+
+Untuk melakukan Two Way Binding ini kita lakukan dengan cara seperti dibawah ini:
+
+![Two Way Binding](../../images/two-way-binding-value.png)
+
+Bisa dilihat diatas bahwa value diisi dengan sebuah state yang bernama `enteredTitle`. Hal ini membuat bahwa DOM tersebut berada dalam situasi infinite loops tetapi tenang saja hal ini tidak seperti itu.
+
+Salah satu keuntungan menggunakan `Two Way Binding` ini adalah kita bisa melakukan reset pada input ketika form sudah disubmit. Hal ini dilakukan dengan cara melakukan `setValue` kosong. Sehingga DOM yang di `Two Way Binding` juga akan mengikuti nilai state nya.
+
+![Reset Form Two Way Binding](../../images/reset-form-two-way-binding.png)
+
+
+
+
+
+
+
 

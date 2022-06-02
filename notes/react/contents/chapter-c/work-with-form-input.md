@@ -79,6 +79,9 @@ Salah satu keuntungan menggunakan `Two Way Binding` ini adalah kita bisa melakuk
 
 ![Reset Form Two Way Binding](../../images/reset-form-two-way-binding.png)
 
+### [Back To React Index](../../README.md)
+
+
 
 
 

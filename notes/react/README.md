@@ -24,6 +24,8 @@
 4. [Bekerja dengan State](./contents/chapter-c/working-with-state.md)
 5. [Lebih Dalam Tentang useState](./contents/chapter-c/closer-look-at-the-useState-hook.md)
 6. [Bekerja dengan Form Input](./contents/chapter-c/work-with-form-input.md)
+7. [Child To Parent Component Communication](./contents/chapter-c/child-to-parent-component-communication.md)
+8. [Lifting The State Up](./contents/chapter-c/lifting-the-state-up.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

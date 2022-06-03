@@ -26,6 +26,9 @@
 6. [Bekerja dengan Form Input](./contents/chapter-c/work-with-form-input.md)
 7. [Child To Parent Component Communication](./contents/chapter-c/child-to-parent-component-communication.md)
 8. [Lifting The State Up](./contents/chapter-c/lifting-the-state-up.md)
+9. [Controlled VS Uncontrolled Components & Stateless vs Stateful Components](./contents/chapter-c/controlled-vs-uncontrolled-components-%26-stateless-vs-stateful-components.md)
+
+
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

@@ -28,7 +28,12 @@
 8. [Lifting The State Up](./contents/chapter-c/lifting-the-state-up.md)
 9. [Controlled VS Uncontrolled Components & Stateless vs Stateful Components](./contents/chapter-c/controlled-vs-uncontrolled-components-%26-stateless-vs-stateful-components.md)
 
-
+## D. Rendering List & Conditional Content
+1. [Rendering Lists Data](./contents/chapter-d/rendering-lists-of-data.md)
+2. [List menggunakan State](./contents/chapter-d/using-stateful-lists.md)
+3. [Mengerti tentang `keys`](./contents/chapter-d/understanding-keys.md)
+4. [Menampilkan Conditional Contents](./contents/chapter-d/outputting-conditional-content.md)
+5. [Menambah Statements Conditional Return](./contents/chapter-d/adding-conditional-return-statements.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

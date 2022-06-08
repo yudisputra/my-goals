@@ -34,6 +34,7 @@
 3. [Mengerti tentang `keys`](./contents/chapter-d/understanding-keys.md)
 4. [Menampilkan Conditional Contents](./contents/chapter-d/outputting-conditional-content.md)
 5. [Menambah Statements Conditional Return](./contents/chapter-d/adding-conditional-return-statements.md)
+6. [Menambah Dynamic Styles](./contents/chapter-d/adding-dynamic-styles.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

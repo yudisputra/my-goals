@@ -35,6 +35,9 @@
 4. [Menampilkan Conditional Contents](./contents/chapter-d/outputting-conditional-content.md)
 5. [Menambah Statements Conditional Return](./contents/chapter-d/adding-conditional-return-statements.md)
 6. [Menambah Dynamic Styles](./contents/chapter-d/adding-dynamic-styles.md)
+
+## E. Styling React Components
+1. [Melakukan Setting Inline Styles Secara Dinamis](./contents/chapter-e/setting-dynamic-inline-styles.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

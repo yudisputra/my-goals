@@ -9,13 +9,11 @@ const ChartBar = (props) => {
         barFillHeight = Math.round((props.value / props.maxValue) * 100) + '%';
     }
 
-    console.log(barFillHeight, 'Bar Fill ');
-
     return (
         <div className='chart-bar'>
             <div className='chart-bar__inner'>
                 <div
-                    className='chart-bar_fill'
+                    className='chart-bar__fill'
                     style={{height: barFillHeight}}
                 ></div>
             </div>

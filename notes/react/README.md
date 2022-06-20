@@ -39,6 +39,7 @@
 ## E. Styling React Components
 1. [Melakukan Setting Inline Styles Secara Dinamis](./contents/chapter-e/setting-dynamic-inline-styles.md)
 2. [Melakukan Setting CSS Classes Secara Dinamis](./contents/chapter-e/setting-css-classes-dynamically.md)
+3. [Perkenalan Styled Components](./contents/chapter-e/introducing-styled-components.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

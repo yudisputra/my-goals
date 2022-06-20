@@ -22,3 +22,21 @@ Yang perlu kita lakukan dalam menggunakan styled components adalah pertama kita 
 
 ![Styled Components Result](../../images/styled-components-result.png)
 
+### a. Styled Components Dengan Dynamic Props
+
+Kita sudah mempelajari bagaimana memberikan css class dan inline secara dinamis pada suatu komponen. Tetapi bagaimana jika kita ingin memberikan style dinamis pada styled component. Cara yang bisa kita lakukan yaitu adalah memberikan props terhadap styled component yang telah kita buat.
+
+![Dynamic Props Styled Component](../../images/dynamic-props-styled-component.png)
+
+Pada styled component yang telah kita buat kita bisa memperikan sebuah props seperti diatas yaitu `invalid`. Kemudian pada css nya kita bisa memberikan curly braces dan kondisi seperti gambar dibawah ini.
+
+![Dynamic Props Styled Component CSS](../../images/dynamic-props-styled-component-css.png)
+
+### b. Media Queries
+
+Salah satu konsep CSS lain yang sering dipakai adalah `media queries` yaitu bagaimana cara CSS bereaksi terhadap ukuran dari media yang digunakan. Pada styled component kita juga bisa menambahkan media queries secara mudah yaitu seperti dibawah ini.
+
+![Media Queries Styled Component](../../images/media-queries-styled-component.png)
+
+### [Back To React Index](../../README.md)
+

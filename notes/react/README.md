@@ -41,6 +41,11 @@
 2. [Melakukan Setting CSS Classes Secara Dinamis](./contents/chapter-e/setting-css-classes-dynamically.md)
 3. [Perkenalan Styled Components](./contents/chapter-e/introducing-styled-components.md)
 4. [Perkenalan CSS Modules](./contents/chapter-e/using-css-modules.md)
+
+## F. Debugging React Apps
+1. [Mengenali React Error Messages](./contents/chapter-f/understanding-react-error-messages.md)
+2. [Menganalisa Code Flow dan Warnings](./contents/chapter-f/analyzing-code-flow-and-warnings.md)
+3. [Bekerja dengan Breakpoints](./contents/chapter-f/working-with-breakpoints.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

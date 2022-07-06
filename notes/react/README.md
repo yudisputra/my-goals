@@ -46,6 +46,7 @@
 1. [Mengenali React Error Messages](./contents/chapter-f/understanding-react-error-messages.md)
 2. [Menganalisa Code Flow dan Warnings](./contents/chapter-f/analyzing-code-flow-and-warnings.md)
 3. [Bekerja dengan Breakpoints](./contents/chapter-f/working-with-breakpoints.md)
+4. [Menggunakan React Dev Tools](./contents/chapter-f/using-the-react-dev-tools.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

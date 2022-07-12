@@ -47,6 +47,13 @@
 2. [Menganalisa Code Flow dan Warnings](./contents/chapter-f/analyzing-code-flow-and-warnings.md)
 3. [Bekerja dengan Breakpoints](./contents/chapter-f/working-with-breakpoints.md)
 4. [Menggunakan React Dev Tools](./contents/chapter-f/using-the-react-dev-tools.md)
+
+## G. Bekerja Dengan Fragments, Portals dan Refs
+1. [Limitasi JSX dan Wrapper Element](./contents/chapter-g/jsx-limitations-%26-workarounds.md)
+2. [React Fragments](./contents/chapter-g/react-fragments.md)
+3. [React Portals](./contents/chapter-g/react-portals.md)
+4. [References (Refs)](./contents/chapter-g/references-ref.md)
+5. [Uncontrolled VS Controlled Components](./contents/chapter-g/uncontrolled-vs-controlled-components.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

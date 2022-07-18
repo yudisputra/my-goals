@@ -54,6 +54,10 @@
 3. [React Portals](./contents/chapter-g/react-portals.md)
 4. [References (Refs)](./contents/chapter-g/references-ref.md)
 5. [Uncontrolled VS Controlled Components](./contents/chapter-g/uncontrolled-vs-controlled-components.md)
+
+## H. Bekerja dengan (Side) Effects, Reducers dan Context API
+1. [Effects](./contents/chapter-h/effects.md)
+2. [Reducers](./contents/chapter-h/reducers.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

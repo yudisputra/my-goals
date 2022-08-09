@@ -58,6 +58,9 @@
 ## H. Bekerja dengan (Side) Effects, Reducers dan Context API
 1. [Effects](./contents/chapter-h/effects.md)
 2. [Reducers](./contents/chapter-h/reducers.md)
+3. [useState vs useReducer](./contents/chapter-h/useState-vs-useReducer.md)
+4. [Context](./contents/chapter-h/context.md)
+5. [Peraturan Dalam Hooks](./contents/chapter-h/rules-of-hooks.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

@@ -278,3 +278,5 @@ Tetapi ada yang perlu diperhatikan dari kode dependensi useEffect diatas yaitu e
 ```
 
 Dengan menggunakan props spesifik dari state `useReducer` yang ada akan mengoptimisasi lebih lanjut `useEffect` yang digunakan.
+
+### [Back To React Index](../../README.md)

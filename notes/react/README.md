@@ -61,6 +61,8 @@
 3. [useState vs useReducer](./contents/chapter-h/useState-vs-useReducer.md)
 4. [Context](./contents/chapter-h/context.md)
 5. [Peraturan Dalam Hooks](./contents/chapter-h/rules-of-hooks.md)
+6. [Login Example dan Input Example](./contents/chapter-h/login-and-input-example.md)
+7. [Forward Refs](./contents/chapter-h/forward-refs.md)
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

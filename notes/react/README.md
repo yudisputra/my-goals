@@ -63,6 +63,17 @@
 5. [Peraturan Dalam Hooks](./contents/chapter-h/rules-of-hooks.md)
 6. [Login Example dan Input Example](./contents/chapter-h/login-and-input-example.md)
 7. [Forward Refs](./contents/chapter-h/forward-refs.md)
+
+## I. Proses Di balik Berjalannya React dan Optimisasi React
+1. [Bagaimana React Bekerja Dibalik Layar ?](./contents/chapter-i/how-react-work-behind-the-scene.md)
+2. [Component Updates in Action](./contents/chapter-i/components-updates-in-action.md)
+3. [Child Component Re-Evalution](./contents/chapter-i/child-component-re-evalution.md)
+4. [Mencegah Re-evalution Tidak Perlu Menggunakan React Memo](./contents/chapter-i/preventing-unnecessary-re-evalution-using-react-memo.md)
+5. [Mencegah Function Re-Cretaion dengan useCallback](./contents/chapter-i/preventing-function-re-creation-with-useCallBack.md)
+6. [Hubungan State dan Components](./contents/chapter-i/a-closer-look-at-state-and-components.md)
+7. [State Scheduling dan Batching](./contents/chapter-i/state-scheduling-and-batching.md)
+8. [Optimizing dengan useMemo()](./contents/chapter-i/optimizing-with-useMemo.md)
+
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

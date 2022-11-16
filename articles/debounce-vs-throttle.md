@@ -1,0 +1,1 @@
+https://redd.one/blog/debounce-vs-throttle

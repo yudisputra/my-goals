@@ -74,6 +74,22 @@
 7. [State Scheduling dan Batching](./contents/chapter-i/state-scheduling-and-batching.md)
 8. [Optimizing dengan useMemo()](./contents/chapter-i/optimizing-with-useMemo.md)
 
+## J. Class based Components
+
+## K. Mengirim Http Request
+1. [Bagaimana cara connect ke sebuah Database](./contents/chapter-k/how-to-not-connect-to-database.md)
+2. [Mengirim GET Request](./contents/chapter-k/sending-a-get-request.md)
+3. [Menggunakan Async / Await](./contents/chapter-k/using-async-await.md)
+4. [Menangani Loading dan States Data](./contents/chapter-k/handling-loading-and-data-states.md)
+5. [Menangani HTTP Errors](./contents/chapter-k/handling-htttp-errors.md)
+6. [Menggunakan useEffect untuk HTTP Request](./contents/chapter-k/useEffect-for-request.md)
+7. [Dummy API Firebase](./contents/chapter-k/dummy-api-firebase.md)
+8. [Sending POST Request](./contents/chapter-k/sending-post-request.md)
+
+## L. Membuat Custom React Hooks
+1. [Apa Itu Custom Hooks ?](./contents/chapter-l/what-are-custom-hooks.md)
+
+
 <br/><br/>
 
 ### [Back To Notes Index](../README.md)

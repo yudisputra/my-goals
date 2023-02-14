@@ -127,3 +127,29 @@ function ExpenseItem(){
 
 export default ExpenseItem;
 ```
+
+## 5. Gunakan Konsep Props agar komponen menjadi reusable
+
+Komponen yang kita gunakan sebelumny masih bersifat tidak reusable karena datanya berupa hard code. Untuk memberikan data dari luar/parent kita gunakan konsep props seperti dibawah ini.
+
+```js
+// Parent
+  <ExpenseItem 
+    title={expenses[0].title}
+    amount={expenses[0].amount}
+    date={expenses[0].date}
+  />
+
+// Dalam Component
+  function ExpenseItem(props){
+    return (
+        <div className="expense-item">
+            <div>{props.date.toISOString()}</div>
+            <div className="expense-item__description">
+                <h2>{props.title}</h2>
+                <div className="expense-item__price">${props.amount}</div>
+            </div>
+        </div>
+    );
+  }
+```

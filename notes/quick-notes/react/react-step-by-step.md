@@ -1,18 +1,20 @@
 # React Step By Step
 
-## 1. Buat Struktur HTML Terlebih dahulu
+## A. Basic Component (HTML, style dan Props)
+
+### 1. Buat Struktur HTML Terlebih dahulu
 
 Buat susunan HTML terlebih dahulu bisa hanya sebagai kerangka awal saja
 
-![Membuat HTML](./images/react-step-by-step-1.png)
+![Membuat HTML](../images/react-step-by-step-1.png)
 
-## 2. Beri Class Pada HTML
+### 2. Beri Class Pada HTML
 
 Beri Class pada element-elemen HTML dibawah adalah salah satu contoh pemberian class dimana div paling atas diberi nama sesuai dengan nama componentnya. Kemudian class yang lain diberi nama dengan tambah __ kemudian nama komponennya (expense-item__description)
 
-![Beri Class](./images/react-step-by-step-2.png)
+![Beri Class](../images/react-step-by-step-2.png)
 
-## 3. Beri Style pada Component
+### 3. Beri Style pada Component
 
 Kita beri style dengan membuat suatu file css dengan nama yang sama dengan component yang kita buat.
 
@@ -102,7 +104,7 @@ import './ExpenseItem.css';
 
 Jangan lupa untuk membuat tampilan dengan resolusi kecil terlebih dulu (agar tampilan pada layar lebih besar menjadi tidak rusak) dengan menggunakan @media
 
-## 4. Ubah data hardcode menjadi variabel js
+### 4. Ubah data hardcode menjadi variabel js
 
 Kita ubah data hardcode data pada HTML menjadi variabel const sementara
 
@@ -128,9 +130,9 @@ function ExpenseItem(){
 export default ExpenseItem;
 ```
 
-## 5. Gunakan Konsep Props agar komponen menjadi reusable
+### 5. Gunakan Konsep Props agar komponen menjadi reusable
 
-Komponen yang kita gunakan sebelumny masih bersifat tidak reusable karena datanya berupa hard code. Untuk memberikan data dari luar/parent kita gunakan konsep props seperti dibawah ini.
+Komponen yang kita gunakan sebelumnya masih bersifat tidak reusable karena datanya berupa hard code. Untuk memberikan data dari luar/parent kita gunakan konsep props seperti dibawah ini.
 
 ```js
 // Parent
@@ -153,3 +155,84 @@ Komponen yang kita gunakan sebelumny masih bersifat tidak reusable karena datany
     );
   }
 ```
+
+### 6. Tambah Logic dasar pada komponen
+
+Kita biasanya menggunakan penambahan logic dasar pada komponen yang kita gunakan seperti ketika komponen tersebut menerima props yang perlu untuk diolah lebih lanjut. Seperti dibawah ini props `tanggal` perlu kita pecah menjadi hari, bulan dan tahun. Untuk memecah `tanggal` tersebut kita disarankan menuliskan logikanya tidak pada return jsx nya tetapi diluarnya.
+
+```js
+    // Penambahan logika diluar return
+    const month = props.date.toLocaleString('en-US', { month: 'long' });
+    const day = props.date.toLocaleString('en-US', { day: '2-digit' });
+    const year = props.date.getFullYear();
+
+    return (
+        <div className="expense-item">
+            <div>
+                <div>{month}</div>
+                <div>{year}</div>
+                <div>{day}</div>
+            </div>
+            <div className="expense-item__description">
+                <h2>{props.title}</h2>
+                <div className="expense-item__price">${props.amount}</div>
+            </div>
+        </div>
+    );
+```
+
+### 7. Pecah Komponen lebih kecil
+
+Ketika ada logic digunakan pada suatu bagian dari komponen yang kita punya, maka besar kemungkinannya kita bisa memecah komponen tersebut menjadi komponen sendiri yang lebih kecil. Contohnya adalah pada penjelasan sebelumnya dimana ada bagian yang digunakan untuk menampilkan `tanggal`, dari komponen tersebut kita bisa pecah menjadi komponen baru.
+
+```js
+// Komponen baru untuk tanggal
+function ExpenseDate(props) {
+  const month = props.date.toLocaleString('en-US', { month: 'long' });
+  const day = props.date.toLocaleString('en-US', { day: '2-digit' });
+  const year = props.date.getFullYear();
+
+  return (
+    <div>
+      <div>{month}</div>
+      <div>{year}</div>
+      <div>{day}</div>
+    </div>
+  )
+}
+
+export default ExpenseDate;
+
+//Komponen sebelumnya tinggal memanggil komponen baru untuk tanggal
+function ExpenseItem(props){
+    return (
+        <div className="expense-item">
+            <ExpenseDate date={props.date}/>
+            <div className="expense-item__description">
+                <h2>{props.title}</h2>
+                <div className="expense-item__price">${props.amount}</div>
+            </div>
+        </div>
+    );
+}
+```
+
+### 8. Optional Dari Basic Step
+* a. [Concept Of Composition (Pembuatan Komponen Container)](./concept-of-composition.md)
+* b. [Organize Folder Komponen](../../../notes/react/images/organize-components.png)
+* c. Alternatif Function Syntax
+
+Penggunaan ES6 sebagai pengganti penggunaan penulisan function component
+```js
+// Dari
+function ComponentA(){
+
+}
+
+// Menjadi
+const ComponentA = () => {
+  
+}
+```
+
+## B. State dan Events

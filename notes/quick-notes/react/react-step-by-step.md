@@ -235,4 +235,31 @@ const ComponentA = () => {
 }
 ```
 
-## B. State dan Events
+## B. Events dan State
+
+### 1. Events
+
+Setelah kita selesai membuat suatu komponen biasanya dalam beberapa kasus kita butuh memberikan suatu `events`. Events yang dimaksud adalah seperti komponen di`klik` oleh mouse yang dinamakan `onClick`. Pembuatan events sederhana pada suatu React adalah seperti dibawah ini:
+
+```js
+const clickHandler = () => {
+  console.log('Clicked');
+};
+
+return (
+  <Card className="expense-item">
+    <ExpenseDate date={props.date}/>
+      <div className="expense-item__description">
+        <h2>{props.title}</h2>
+        <div className="expense-item__price">${props.amount}</div>
+      </div>
+      <button onClick={clickHandler}>Clicked</button>
+  </Card>
+);
+```
+
+Yang kita telah lakukan adalah kita memberikan event pada suatu HTML, pada kasus diatas adalah sebuah `button` kemudian kita beri suatu event yaitu `onClick` yang kemudian kita isi dengan suatu function bernama `clickHandler`. Yang perlu kita perhatikan adalah penulisan function didalam `onClick` yaitu tanpa simbol () (clickHandler()) hal ini akan membuat function akan dieksekusi terlebih dahulu ketika komponen pertama kali dirender.
+
+### 2. State Concept (Penyimpan Variabel dan Trigger Pertama Reevaluated Component)
+
+[State Concept](./state-concept.md)

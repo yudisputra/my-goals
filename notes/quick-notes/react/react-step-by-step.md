@@ -263,3 +263,6 @@ Yang kita telah lakukan adalah kita memberikan event pada suatu HTML, pada kasus
 ### 2. State Concept (Penyimpan Variabel dan Trigger Pertama Reevaluated Component)
 
 [State Concept](./state-concept.md)
+
+## C. Form
+

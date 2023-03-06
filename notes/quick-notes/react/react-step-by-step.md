@@ -266,3 +266,8 @@ Yang kita telah lakukan adalah kita memberikan event pada suatu HTML, pada kasus
 
 ## C. Form
 
+### 1. [Form Input](./form-input.md)
+### 2. [Form Handler](./form-handler.md)
+### Optional. [Multiple State VS One State Object](./multiple-state-vs-one-state-object.md)
+
+

@@ -1,5 +1,10 @@
 # Form Input
 
+* Untuk membuat form yang perlu kita perhatikan adalah tag html yang pertama kita gunakan adalah `form` sebagai pembungkusnya. 
+* Kemudian untuk setiap fieldnya kita gunakan gabungan antara label dan input.
+* Setiap input mewakili tipe dari inputan yang digunakan `text`, `number` dan `date`.
+
+
 ```ts
 import React from 'react';
 
@@ -31,5 +36,3 @@ const ExpenseForm = () => {
 
 export default ExpenseForm;
 ```
-
-Untuk membuat form kita bisa buat seperti diatas, yang perlu kita perhatikan adalah tag html yang pertama kita gunakan adalah `form` sebagai pembungkusnya. Kemudian untuk setiap fieldnya kita gunakan gabungan antara label dan input.

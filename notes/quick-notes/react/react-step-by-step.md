@@ -130,7 +130,7 @@ function ExpenseItem(){
 export default ExpenseItem;
 ```
 
-### 5. Gunakan Konsep Props agar komponen menjadi reusable
+### 5. Gunakan Konsep Props agar komponen menjadi reusable dan sebagai komunikasi parent terhadap children
 
 Komponen yang kita gunakan sebelumnya masih bersifat tidak reusable karena datanya berupa hard code. Untuk memberikan data dari luar/parent kita gunakan konsep props seperti dibawah ini.
 
@@ -269,5 +269,12 @@ Yang kita telah lakukan adalah kita memberikan event pada suatu HTML, pada kasus
 ### 1. [Form Input](./form-input.md)
 ### 2. [Form Handler](./form-handler.md)
 ### Optional. [Multiple State VS One State Object](./multiple-state-vs-one-state-object.md)
+### 3. [Form Submit](./form-submit.md)
+### 4. [Two Way Binding](./two-way-binding.md)
+### 5. [Child-To-Parent Component Communication](./child-to-parent-communication.md)
+### Optional [Lifting State Up](../../react/contents/chapter-c/lifting-the-state-up.md)
+### Optional [Controlled VS Uncontrolled Components](../../react/contents/chapter-c/controlled-vs-uncontrolled-components-&-stateless-vs-stateful-components.md)
+
+
 
 

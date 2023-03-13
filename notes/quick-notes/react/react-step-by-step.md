@@ -275,6 +275,14 @@ Yang kita telah lakukan adalah kita memberikan event pada suatu HTML, pada kasus
 ### Optional [Lifting State Up](../../react/contents/chapter-c/lifting-the-state-up.md)
 ### Optional [Controlled VS Uncontrolled Components](../../react/contents/chapter-c/controlled-vs-uncontrolled-components-&-stateless-vs-stateful-components.md)
 
+## D. Rendering List dan Conditional Content
+
+### 1. [Basic Rendering List](./basic-rendering-list.md)
+### 2. [Stateful List](./stateful-list.md)
+### 3. [Keys is Importance](./keys-is-importance.md)
+### 4. [Outputting Conditional Content](./outputting-contitional-content)
+### 5. [Outputting Conditional Return](./conditional-return-statements.md)
+### 6. [Dynamic Styles](./dynamic-styles.md)
 
 
 
